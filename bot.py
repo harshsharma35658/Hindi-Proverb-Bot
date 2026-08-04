@@ -1,5 +1,5 @@
 import google.generativeai as genai
-genai.configure(api_key="PASTE_YOUR_KEY_HERE")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.5-flash')
 topic = input("Kis topic par kahawat chahiye? ")
 prompt = f"Mujhe 5 famous Hindi kahawatein do topic: {topic}. Har kahawat ke saath matlab bhi likho."
